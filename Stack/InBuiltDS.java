@@ -19,7 +19,7 @@ public class InBuiltDS{
         Deque<Integer> dequ=new ArrayDeque<>();
         dequ.add(89);
         dequ.addLast(4);
-        dequ.removeFirst()
+        dequ.removeFirst();
 
         // System.out.println(stack.toArray());
     }
