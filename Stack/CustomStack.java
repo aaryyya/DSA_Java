@@ -36,11 +36,11 @@ public class CustomStack {
         return dataarray[ptr];
     }
 
-    private boolean isFull(){
+    public boolean isFull(){
         return ptr==dataarray.length-1;
     }
 
-    private boolean isEmpty(){
+    public boolean isEmpty(){
         return ptr==-1;
     }
 }
