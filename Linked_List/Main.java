@@ -9,6 +9,7 @@ public class Main {
         list.insertFirst(17);
         list.insertLast(15);
         list.insert(500, 2);
+        list.insertRec(78, 0);
         // list.display();
         // System.out.println(list.delete(3));
         list.display();
@@ -31,6 +32,7 @@ public class Main {
         dll.display();
         dll.insertAfter(2, 78);
         dll.display();
+
 
         CLL cll=new CLL();
         cll.insert(24);

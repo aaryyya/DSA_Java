@@ -63,6 +63,20 @@ public class LinkedList{
         size++;
     }
 
+    public Node insertRec(int value,int index , Node node){
+        if(index==0){
+        Node temp=new Node(value, node);
+        size++;
+        return temp;
+        }
+        node.next=insertRec(value, index--, node.next);
+        return node;
+
+    }
+    public void insertRec(int value,int index){
+        head=insertRec(value, index, head);
+    }
+
     public int deleteFirst(){
         int value=head.value;
         head=head.next;
