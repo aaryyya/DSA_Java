@@ -2,6 +2,6 @@
 
 public class Demo {
   public static void main(String[] args) {
-    Main.divide(1,0);
+    // Main.divide(1,0);
   }  
 }
